@@ -20,12 +20,14 @@
           <div class="row row-cols-1 col justify-content-center">
             <h5 class="col text-center">Texoham's</h5>
             <h1 class="col text-center">ACTUALIZE</h1>
-            <h5 class="col text-center">Together, we make it happen.</h5>
+            <h6 class="col text-center">Together, we make it happen.</h6>
           </div>
           <div class="row col row-cols-1 row-cols-sm-3 justify-content-around">
-            <button type="button" class="btn btn-outline-primary col-sm-auto py-2 my-2">Information Technology</button>
-            <button type="button" class="btn btn-outline-success col-sm-auto py-2 my-2">Operational Technology</button>
-            <button type="button" class="btn btn-outline-danger col-sm-auto py-2 my-2">Industrial Automation</button>
+            <button type="button" class="btn btn-outline-primary col-sm-auto py-2 my-2">
+              Information Technology
+            </button>
+            <button type="button" class="btn btn-outline-success col-sm-auto py-2 my-2">Industrial Automation</button>
+            <button type="button" class="btn btn-outline-danger col-sm-auto py-2 my-2">Operational Technology</button>
           </div>
           <div class="row col justify-content-center">
             <button type="button" class="btn btn-outline-light py-2">Contact Us</button>
@@ -33,60 +35,102 @@
         </div>
       </section>
       <section id="it" class="container-lg">
-        <h2>Information Technology</h2>
-        <ul>
-          <li>Team</li>
-          <li>Services</li>
-          <li>Skillset</li>
-        </ul>
-        <article class="team">
-          <!-- <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" /> -->
-          <h6>Team Coordinator</h6>
-          <h6>Vignan Sunkara</h6>
-          <h6>Team Members</h6>
-          <h6>Harika Soma</h6>
-          <h6>Ashok P</h6>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quaerat, qui consequuntur tempore quas quam
-            culpa temporibus corrupti officiis ducimus hic, doloribus, magnam odio odit doloremque fuga? Velit, fugit
-            sequi.
-          </p>
-        </article>
-        <article class="services">
-          <div>
-            <h6>Applications</h6>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur labore cumque molestiae eius atque
-              cupiditate provident quasi error necessitatibus, veritatis quibusdam numquam officiis nulla esse
-              voluptatem modi minus ipsum quisquam?
-            </p>
-          </div>
-          <div>
-            <h6>Analytics</h6>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur labore cumque molestiae eius atque
-              cupiditate provident quasi error necessitatibus, veritatis quibusdam numquam officiis nulla esse
-              voluptatem modi minus ipsum quisquam?
-            </p>
-          </div>
-        </article>
-        <article class="skillset">
-          <div>
-            <h6>Programming Languages</h6>
-            <ul>
-              <li>Javascript</li>
-              <li>Go Language</li>
-              <li>Dart</li>
-            </ul>
-          </div>
-          <div>
-            <h6>Frontend Frameworks</h6>
-            <ul>
-              <li>Vue JS</li>
-              <li>React</li>
-            </ul>
-          </div>
-        </article>
+        <div class="row">
+          <h2 class="col-12 text-light text-center">Information Technology</h2>
+          <!-- <div class="col-12 col-sm-3 row row-cols-1 align-items-start"> -->
+          <button
+            class="btn btn-outline-primary py-2 my-2 col-12 col-sm-4"
+            type="button"
+            data-toggle="collapse"
+            data-target="#itteam"
+          >
+            IT Team
+          </button>
+          <div class="col-sm-8"></div>
+          <article class="team collapse col-12" id="itteam">
+            <div class="card card-body bg-dark text-light border-0">
+              <!-- <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" /> -->
+              <div class="row">
+                <h6 class="col-6 text-info">Team Coordinator</h6>
+                <h6 class="col-6 text-white">Vignan Sunkara</h6>
+              </div>
+              <div class="row">
+                <h6 class="col-6 text-info">Team Members</h6>
+                <div class="col-6 text-light">
+                  <h6>Harika Soma</h6>
+                  <h6>Ashok P</h6>
+                </div>
+              </div>
+              <div class="row">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quaerat, qui consequuntur tempore quas
+                  quam culpa temporibus corrupti officiis ducimus hic, doloribus, magnam odio odit doloremque fuga?
+                  Velit, fugit sequi.
+                </p>
+              </div>
+            </div>
+          </article>
+          <button
+            class="btn btn-outline-primary py-2 my-2 col-12 col-sm-4"
+            type="button"
+            data-toggle="collapse"
+            data-target="#itservices"
+          >
+            IT Services
+          </button>
+          <div class="col-sm-8"></div>
+          <article class="services collapse col-12" id="itservices">
+            <div class="card card-body bg-dark text-light border-0">
+              <div>
+                <h6 class="text-info">Applications</h6>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur labore cumque molestiae eius atque
+                  cupiditate provident quasi error necessitatibus, veritatis quibusdam numquam officiis nulla esse
+                  voluptatem modi minus ipsum quisquam?
+                </p>
+              </div>
+              <div>
+                <h6 class="text-info">Analytics</h6>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur labore cumque molestiae eius atque
+                  cupiditate provident quasi error necessitatibus, veritatis quibusdam numquam officiis nulla esse
+                  voluptatem modi minus ipsum quisquam?
+                </p>
+              </div>
+            </div>
+          </article>
+          <button
+            class="btn btn-outline-primary py-2 my-2 col-12 col-sm-4"
+            type="button"
+            data-toggle="collapse"
+            data-target="#itskills"
+          >
+            IT Skillset
+          </button>
+          <div class="col-sm-8"></div>
+          <article class="skillset collapse col-12" id="itskills">
+            <div class="card card-body bg-dark text-light border-0">
+              <div>
+                <h6 class="text-info">Programming Languages</h6>
+                <ul class="text-white">
+                  <li>Javascript</li>
+                  <li>Go Language</li>
+                  <li>Dart</li>
+                </ul>
+              </div>
+              <div>
+                <h6 class="text-info">Frontend Frameworks</h6>
+                <ul class="text-white">
+                  <li>Vue JS</li>
+                  <li>React</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <!-- </div> -->
+          <!-- <div class="col-12 col-sm-9 row"> -->
+          <!-- </div> -->
+        </div>
       </section>
       <section id="ot" class="container-lg">
         <h2>Operational Technology</h2>
