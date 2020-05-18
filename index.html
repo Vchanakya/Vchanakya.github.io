@@ -10,21 +10,27 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>ACTUALIZE</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <section id="landing" class="container-lg">
-        <h5 class="">Texoham's</h5>
-        <h1>ACTUALIZE</h1>
-        <h5>Together, we make it happen.</h5>
-        <ul>
-          <li>Information Technology</li>
-          <li>Operational Technology</li>
-          <li>Industrial Automation</li>
-        </ul>
-        <h6>Contact Us</h6>
-        <h6>texoham@gmail.com</h6>
+    <div class="container-fluid bg-dark text-light border rounded border-light">
+      <section id="landing" class="container-lg mx-auto row row-cols-1 align-items-center">
+        <div class="row row-cols-1 align-items-center justify-content-center" id="landingarea">
+          <div class="row row-cols-1 col justify-content-center">
+            <h5 class="col text-center">Texoham's</h5>
+            <h1 class="col text-center">ACTUALIZE</h1>
+            <h5 class="col text-center">Together, we make it happen.</h5>
+          </div>
+          <div class="row col row-cols-1 row-cols-sm-3 justify-content-around">
+            <button type="button" class="btn btn-outline-primary col-sm-auto py-2 my-2">Information Technology</button>
+            <button type="button" class="btn btn-outline-success col-sm-auto py-2 my-2">Operational Technology</button>
+            <button type="button" class="btn btn-outline-danger col-sm-auto py-2 my-2">Industrial Automation</button>
+          </div>
+          <div class="row col justify-content-center">
+            <button type="button" class="btn btn-outline-light py-2">Contact Us</button>
+          </div>
+        </div>
       </section>
       <section id="it" class="container-lg">
         <h2>Information Technology</h2>
@@ -34,7 +40,7 @@
           <li>Skillset</li>
         </ul>
         <article class="team">
-          <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" />
+          <!-- <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" /> -->
           <h6>Team Coordinator</h6>
           <h6>Vignan Sunkara</h6>
           <h6>Team Members</h6>
@@ -80,9 +86,6 @@
               <li>React</li>
             </ul>
           </div>
-          <ul>
-            <li></li>
-          </ul>
         </article>
       </section>
       <section id="ot" class="container-lg">
@@ -93,7 +96,7 @@
           <li>Skillset</li>
         </ul>
         <article class="team">
-          <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" />
+          <!-- <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" /> -->
           <h6>Team Coordinator</h6>
           <h6>Vivek Gajam</h6>
           <h6>Team Members</h6>
@@ -152,7 +155,7 @@
           <li>Skillset</li>
         </ul>
         <article class="team">
-          <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" />
+          <!-- <img src="images/placeholder.jpg" alt="" class="img-fluid rounded float-left" /> -->
           <h6>Team Coordinator</h6>
           <h6>Lingesh</h6>
           <h6>Team Members</h6>
@@ -216,6 +219,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script async src="http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7"></script>
+    <script src="js/index.js"></script>
+    <script async src="http://localhost:3000/browser-sync/browser-sync-client.js?v=2.26.7"></script>
   </body>
 </html>
