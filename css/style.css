@@ -1,7 +1,38 @@
-section {
-  min-height: 600px;
+#containerBlock {
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-#landingarea {
-  height: 100%;
+.bg-black {
+    background: #fefefe;
+}
+
+.topmenu {
+    height: 10vh;
+}
+
+.contentpage {
+    height: 90vh;
+}
+
+.h-smaller {
+    font-size: 1rem;
+}
+
+.h-small {
+    font-size: 2rem;
+}
+
+.h-big {
+    font-size: 4rem;
+}
+
+.opacity-zero {
+    opacity: 0;
+}
+
+.opacity-full {
+    opacity: 1;
 }
