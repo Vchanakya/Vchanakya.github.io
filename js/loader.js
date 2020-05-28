@@ -42,7 +42,7 @@ function animations() {
                     delay: (el, i) => {
                         el.classList.remove("opacity-zero");
                         el.classList.add("opacity-full");
-                        return i * 300;
+                        return i * 100;
                     },
                 });
                 changeStatus = false;
@@ -55,7 +55,7 @@ function animations() {
                     duration: 3500,
                     endDelay: 100,
                     delay: (el, i) => {
-                        return (document.querySelectorAll(".textRotate").length - i) * 300;
+                        return (document.querySelectorAll(".textRotate").length - i) * 100;
                     },
                     complete: () => {
                         let tempText = textFills[Math.floor(Math.random() * textFills.length)];
