@@ -5,10 +5,6 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.bg-black {
-    background: #fefefe;
-}
-
 .topmenu {
     height: 10vh;
 }
@@ -22,11 +18,11 @@
 }
 
 .h-small {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .h-big {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .opacity-zero {

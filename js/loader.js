@@ -6,7 +6,7 @@ function animations() {
     anime({
         targets: "#logo svg path",
         easing: "easeInOutSine",
-        fill: "#000000",
+        fill: "#FFFFFF",
         duration: 1400,
         delay: (el, i) => {
             return i * 100;
@@ -26,8 +26,8 @@ function animations() {
 
     let textAnimation = anime({
         targets: ".tagline",
-        easing: "easeOutSine",
-        color: ["#1f1868", "#173576", "#0053bc", "#22b128", "#d0bd00", "#ec6a08", "#e40905"],
+        easing: "linear",
+        color: ["#000000", "#1f1868", "#173576", "#0053bc", "#22b128", "#d0bd00", "#ec6a08", "#e40905"],
         duration: 7000,
         loop: true,
         direction: "alternate",
