@@ -1,10 +1,40 @@
 function animations() {
     let loopStatus = true;
     let changeStatus = true;
-    let textFills = ["Things", "Projects", "IoT", "Automation", "Edge", "Applications", "Panels"];
+    let textFills = [
+        "Things",
+        "Projects",
+        "IoT",
+        "Automation",
+        "Edge",
+        "Applications",
+        "Control Panels",
+        "Internet of Things",
+    ];
 
     anime({
-        targets: "#logo svg path",
+        targets: "#logo1 svg path",
+        easing: "easeInOutSine",
+        fill: "#FFFFFF",
+        duration: 1400,
+        delay: (el, i) => {
+            return i * 100;
+        },
+        direction: "alternate",
+        loop: true,
+        loopBegin: () => {
+            if (loopStatus) {
+                textAnimation.play;
+                loopStatus = false;
+            } else {
+                textAnimation.pause;
+                loopStatus = true;
+            }
+        },
+    });
+
+    anime({
+        targets: "#logo2 svg path",
         easing: "easeInOutSine",
         fill: "#FFFFFF",
         duration: 1400,
