@@ -3,7 +3,7 @@ function animations() {
     let changeStatus = true;
     let word = "";
     let wordChange = "";
-    let textFills = ["Ideas", "Products", "Learning", "Services", "Solutions", "Technology", "Insights"];
+    let textFills = ["Ideas", "Products", "Learning", "Services", "Solutions", "Technologies", "Insights"];
 
     anime({
         targets: ".tagline",
@@ -23,7 +23,7 @@ function animations() {
         opacity: [1, 0],
         loopBegin: () => {
             if (word === "") {
-                wordChange = textFills[Math.floor(Math.random() * textFills.length)];   
+                wordChange = textFills[Math.floor(Math.random() * textFills.length)];
                 word = wordChange[0];
                 loopCount = 0;
             } else {
