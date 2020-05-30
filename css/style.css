@@ -1,12 +1,12 @@
 #containerBlock {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     min-height: 600px;
     font-family: "Source Sans Pro", sans-serif;
 }
 
 .topmenu {
-    height: 10vh;
+    height: 9vh;
 }
 
 .contentpage {
@@ -15,6 +15,10 @@
 
 .h-smaller {
     font-size: 1.2rem;
+}
+
+.h-half {
+    font-size: 2rem;
 }
 
 .h-small {
@@ -29,6 +33,46 @@
     opacity: 0;
 }
 
+.opacity-half {
+    opacity: 0.5;
+}
+
 .opacity-full {
     opacity: 1;
+}
+
+.main-images {
+    height: 13vh;
+    width: 100vw;
+}
+
+.zindex-lowest {
+    z-index: 0;
+}
+
+.zindex-lower {
+    z-index: 10;
+}
+
+.zindex-low {
+    z-index: 20;
+}
+
+.zindex-top {
+    z-index: 25;
+}
+
+.zindex-topper {
+    z-index: 40;
+}
+
+.zindex-toppest {
+    z-index: 50;
+}
+
+@media (min-width: 992px) {
+    .main-images {
+        height: 89vh;
+        width: 14.25vw;
+    }
 }

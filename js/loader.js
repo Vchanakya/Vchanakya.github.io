@@ -7,8 +7,8 @@ function animations() {
 
     anime({
         targets: ".tagline",
-        easing: "linear",
-        color: ["#000000", "#1f1868", "#173576", "#0053bc", "#22b128", "#d0bd00", "#ec6a08", "#e40905"],
+        easing: "steps(7)",
+        color: ["#1f1868", "#173576", "#0053bc", "#22b128", "#d0bd00", "#ec6a08", "#e40905"],
         duration: 7000,
         loop: true,
         direction: "alternate",
