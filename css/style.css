@@ -1,78 +1,55 @@
-#containerBlock {
-    height: 100%;
-    width: 100vw;
-    min-height: 600px;
-    font-family: "Source Sans Pro", sans-serif;
+html,
+body {
+  height: 100%;
 }
 
-.topmenu {
-    height: 9vh;
+.content {
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  min-width: 320px;
 }
 
-.contentpage {
-    height: 90vh;
+li a:hover {
+  text-decoration: underline !important;
 }
 
-.h-smaller {
-    font-size: 1.2rem;
+.z-toppest {
+  z-index: 100;
 }
 
-.h-half {
-    font-size: 2rem;
+.z-topper {
+  z-index: 80;
 }
 
-.h-small {
-    font-size: 3rem;
+.z-top {
+  z-index: 60;
 }
 
-.h-big {
-    font-size: 4rem;
+.z-middle {
+  z-index: 50;
 }
 
-.opacity-zero {
-    opacity: 0;
+.z-low {
+  z-index: 40;
 }
 
-.opacity-half {
-    opacity: 0.5;
+.z-lower {
+  z-index: 20;
 }
 
-.opacity-full {
-    opacity: 1;
+.z-lowest {
+  z-index: 0;
 }
 
-.main-images {
-    height: 13vh;
-    width: 100vw;
+.opacity-higher {
+  opacity: 0.8;
 }
 
-.zindex-lowest {
-    z-index: 0;
+.opacity-mid {
+  opacity: 0.5;
 }
 
-.zindex-lower {
-    z-index: 10;
-}
-
-.zindex-low {
-    z-index: 20;
-}
-
-.zindex-top {
-    z-index: 25;
-}
-
-.zindex-topper {
-    z-index: 40;
-}
-
-.zindex-toppest {
-    z-index: 50;
-}
-
-@media (min-width: 992px) {
-    .main-images {
-        height: 90vh;
-        width: 14.25vw;
-    }
+.opacity-lower {
+  opacity: 0.2;
 }

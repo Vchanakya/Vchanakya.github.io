@@ -1,28 +1,18 @@
-document.getElementById("menu-services").onclick = () => {
-    document.querySelectorAll(".sectionpage").forEach((el) => {
-        el.classList.remove("d-block");
-        el.classList.add("d-none");
-    });
-    document.getElementById("services").classList.remove("d-none");
-    document.getElementById("services").classList.add("d-block");
-};
+function indexMain() {
+  const mainHeight = $("#mainPage").height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
+  $("main").outerHeight(mainHeight);
 
-document.querySelectorAll(".hovercard").forEach((el) => {
-    el.addEventListener("mouseover", () => {
-        document.querySelectorAll(".hovercard").forEach((el) => {
-            el.classList.remove("shadow-lg");
-            el.classList.remove("opacity-full");
-            el.classList.add("opacity-half");
-        });
-        el.classList.add("shadow-lg");
-        el.classList.add("opacity-full");
+  document.querySelectorAll("a").forEach((el) => {
+    el.addEventListener("click", (ev) => {
+      document.querySelectorAll("section").forEach((sectionEl) => {
+        if (sectionEl.getAttribute("id") !== el.getAttribute("href").split("#")[1]) {
+          sectionEl.classList.add("d-none");
+        } else {
+          sectionEl.classList.remove("d-none");
+        }
+      });
     });
-});
+  });
+}
 
-document.querySelectorAll(".hovercard").forEach((el) => {
-    el.addEventListener("mouseout", () => {
-        el.classList.remove("shadow-lg");
-        el.classList.remove("opacity-full");
-        el.classList.add("opacity-half");
-    });
-});
+indexMain();
