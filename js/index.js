@@ -1,4 +1,5 @@
 function indexMain() {
+<<<<<<< HEAD
     const pageHeight = $("#mainPage").height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
     window.onload = () => {
         $("main").css("min-height", pageHeight);
@@ -31,4 +32,22 @@ function indexMain() {
     });
 }
 
+=======
+  const mainHeight = $("#mainPage").height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
+  $("main").outerHeight(mainHeight);
+
+  document.querySelectorAll("a").forEach((el) => {
+    el.addEventListener("click", (ev) => {
+      document.querySelectorAll("section").forEach((sectionEl) => {
+        if (sectionEl.getAttribute("id") !== el.getAttribute("href").split("#")[1]) {
+          sectionEl.classList.add("d-none");
+        } else {
+          sectionEl.classList.remove("d-none");
+        }
+      });
+    });
+  });
+}
+
+>>>>>>> 27b3b8b6caf72214b34dbbf8d694d64e9e6e79ab
 indexMain();

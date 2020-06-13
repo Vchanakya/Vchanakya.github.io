@@ -1,5 +1,6 @@
 html,
 body {
+<<<<<<< HEAD
     height: 100%;
 }
 
@@ -73,4 +74,76 @@ header a {
         margin-left: auto !important;
         margin-right: auto !important;
     }
+=======
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  min-width: 320px;
+}
+
+li a:hover {
+  text-decoration: underline !important;
+}
+
+.font-big {
+  font-weight: 500;
+}
+
+.font-lead {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.z-toppest {
+  z-index: 100;
+}
+
+.z-topper {
+  z-index: 80;
+}
+
+.z-top {
+  z-index: 60;
+}
+
+.z-middle {
+  z-index: 50;
+}
+
+.z-low {
+  z-index: 40;
+}
+
+.z-lower {
+  z-index: 20;
+}
+
+.z-lowest {
+  z-index: 0;
+}
+
+.opacity-higher {
+  opacity: 0.8;
+}
+
+.opacity-mid {
+  opacity: 0.5;
+}
+
+.opacity-lower {
+  opacity: 0.2;
+}
+
+@media (min-width: 1440px) {
+  .container-page {
+    max-width: 1400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+>>>>>>> 27b3b8b6caf72214b34dbbf8d694d64e9e6e79ab
 }
