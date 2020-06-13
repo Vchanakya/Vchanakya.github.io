@@ -1,78 +1,76 @@
-#containerBlock {
+html,
+body {
     height: 100%;
-    width: 100vw;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
     min-height: 600px;
-    font-family: "Source Sans Pro", sans-serif;
+    min-width: 320px;
 }
 
-.topmenu {
-    height: 9vh;
+li a:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
 }
 
-.contentpage {
-    height: 90vh;
+header a {
+    cursor: pointer;
 }
 
-.h-smaller {
-    font-size: 1.2rem;
+.bg-grey {
+    background: #fafafa;
 }
 
-.h-half {
-    font-size: 2rem;
+.bg-violet {
+    background: #673ab7;
 }
 
-.h-small {
-    font-size: 3rem;
+.bg-indigo {
+    background: #3f51b5;
 }
 
-.h-big {
-    font-size: 4rem;
+.bg-blue {
+    background: #2196f3;
 }
 
-.opacity-zero {
-    opacity: 0;
+.bg-green {
+    background: #4caf50;
 }
 
-.opacity-half {
-    opacity: 0.5;
+.bg-yellow {
+    background: #ffeb3b;
 }
 
-.opacity-full {
-    opacity: 1;
+.bg-orange {
+    background: #ff9800;
 }
 
-.main-images {
-    height: 13vh;
-    width: 100vw;
+.bg-red {
+    background: #f44336;
 }
 
-.zindex-lowest {
-    z-index: 0;
+.font-big {
+    font-weight: 500;
+    font-size: 2.5rem;
 }
 
-.zindex-lower {
-    z-index: 10;
+.font-lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
-.zindex-low {
-    z-index: 20;
+.text-underline {
+    text-decoration: underline;
+    color: #151515 !important;
 }
 
-.zindex-top {
-    z-index: 25;
-}
-
-.zindex-topper {
-    z-index: 40;
-}
-
-.zindex-toppest {
-    z-index: 50;
-}
-
-@media (min-width: 992px) {
-    .main-images {
-        height: 90vh;
-        width: 14.25vw;
+@media (min-width: 1440px) {
+    .container-page {
+        max-width: 1400px;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
