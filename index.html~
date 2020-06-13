@@ -92,7 +92,7 @@
                         </div>
                     </section>
                     <section class="row px-0 mx-0 row-cols-1 h-100 position-relative d-none twopage" id="aboutus">
-                        <div class="row mx-0 col align-self-top my-3 mediumpage">
+                        <div class="row px-0 mx-0 col align-self-top my-3 mediumpage">
                             <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
                                 <div class="row col row-cols-1 p-0">
                                     <div class="h2 col font-big font-weight-bolder">Together, we are more</div>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                         <div
-                            class="row row-cols-1 mx-0 col align-self-bottom align-items-start mediumpage"
+                            class="row row-cols-1 px-0 mx-0 col align-self-bottom align-items-start mediumpage"
                             id="aboutItem"
                         >
                             <div class="col border rounded align-self-start my-2 bg-grey" id="aboutMenu">
@@ -369,7 +369,7 @@
                         </div>
                     </section>
                     <section class="row px-0 mx-0 row-cols-1 h-100 position-relative d-none twopage" id="services">
-                        <div class="row mx-0 col align-self-top my-3 mediumpage">
+                        <div class="row px-0 mx-0 col align-self-top my-3 mediumpage">
                             <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
                                 <div class="row col row-cols-1 p-0">
                                     <div class="h2 col font-big font-weight-bolder">Together, we provide more</div>
@@ -385,7 +385,7 @@
                             </div>
                         </div>
                         <div
-                            class="row row-cols-1 mx-0 col align-self-bottom align-items-start mediumpage"
+                            class="row row-cols-1 px-0 mx-0 col align-self-bottom align-items-start mediumpage"
                             id="servicesItem"
                         >
                             <div class="col border rounded align-self-start my-2 bg-grey" id="servicesMenu">
@@ -620,7 +620,7 @@
                         class="row px-0 mx-0 row-cols-1 h-100 position-relative d-none singlepage"
                         id="architecture"
                     >
-                        <div class="row mx-0 col">
+                        <div class="row px-0 mx-0 col">
                             <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
                                 <div class="row col row-cols-1 p-0">
                                     <div class="h2 col font-big font-weight-bolder">Together, we communicate more</div>
@@ -639,7 +639,7 @@
                         class="row row-cols-1 row-cols-lg-12 px-0 mx-0 h-100 d-none singlepage align-items-top"
                         id="contactus"
                     >
-                        <div class="row mx-0 col">
+                        <div class="row px-0 mx-0 col">
                             <div class="row row-cols-1 align-items-center col-12 col-md-6 px-0 mx-0">
                                 <div class="row col row-cols-1 p-0">
                                     <div class="h2 col font-big font-weight-bolder">Together, we can create more</div>
