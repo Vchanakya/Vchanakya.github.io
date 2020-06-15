@@ -1,12 +1,13 @@
 function indexMain() {
-  const pageHeight = $("#mainPage").height() - $("header").outerHeight(true) - $("footer").outerHeight(true);
+  $("footer").css("height", $("header").height());
+  const pageHeight = $("#mainPage").height() - $("header").outerHeight(true) * 2;
   window.onload = () => {
     $("main").css("min-height", pageHeight);
     $(".singlepage").css("min-height", pageHeight);
     $(".mediumpage").css("min-height", 0.8 * pageHeight);
-    $("#landingImage").css("max-height", pageHeight / 2);
+    $("#landingImage").css("max-height", (2 * pageHeight) / 3);
     $("#architectureImage").css("max-height", pageHeight);
-    $("#landingImage").css("max-width", $("#landingImage").height() * 1.5);
+    //$("#landingImage").css("max-width", $("#landingImage").height() * 1.5);
   };
   document.querySelectorAll("header a").forEach((el) => {
     el.addEventListener("click", (ev) => {
@@ -23,11 +24,13 @@ function indexMain() {
     });
   });
   $("#aboutMenu").click(() => {
-    window.scrollTo(0, 0.8 * pageHeight);
+    window.scrollTo(0, $("#aboutItem").position().top);
+  });
+  $("#servicesMenu").click(() => {
+    window.scrollTo(0, $("#servicesItem").position().top);
   });
 
   $("a[data-href='#aboutus']").click(() => {
-    console.log($("#aboutItem").height(), $("#aboutMenu").height());
     $("#pills-tabContent").css("min-height", $("#aboutItem").height() - $("#aboutMenu").height());
   });
 }
