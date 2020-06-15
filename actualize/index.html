@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Texoham's Actualize</title>
+  </head>
+
+  <body class="bg-azure">
+    <div class="container-fluid p-0 m-0 h-100 w-100 container-page">
+      <div class="content row row-cols-1 p-0 m-0" id="mainPage">
+        <header class="col align-self-start p-0 m-0 sticky-top border-bottom rounded">
+          <nav class="navbar navbar-expand-sm navbar-light bg-grey align-items-end-md mx-0">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarMenu"
+              aria-controls="navbarMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a data-href="#landing" class="navbar-brand mx-auto">
+              <img src="images/nav-logo.svg" width="40px" height="auto" class="d-inline-block align-top" />
+              <span style="font-size: 30px;" class="font-weight-normal">Actualize</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" data-href="#aboutus">about us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-href="#services">services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-href="#framework">framework</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-href="#contactus">contact us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <main class="col align-self-center p-0 mx-0">
+          <section
+            class="row row-cols-1 row-cols-lg-12 px-0 mx-0 h-100 py-2 singlepage align-items-center"
+            id="landing"
+          >
+            <div class="col col-md-7 font-big text-black">
+              <div class="d-inline-block">
+                Together,
+              </div>
+              <div class="d-inline-block">
+                we
+              </div>
+              <div class="d-inline-block">
+                make
+              </div>
+              <div class="d-inline-block" id="textFills">
+                <span id="words">it</span>
+              </div>
+              <div class="d-inline-block">
+                happen
+              </div>
+              <div class="my-2 font-lead">
+                Actualize is an amalgamation of three teams that came together to build a SMART future using the modern
+                technologies like IoT, AI, Edge Computing, Robotics and so much more.
+              </div>
+            </div>
+            <div class="row col col-md-5 px-0 justify-content-end">
+              <img src="images/landingPage2.jpg" class="col img-fluid pr-0" alt="" id="landingImage" />
+            </div>
+          </section>
+          <section class="row px-0 mx-0 row-cols-1 h-100 position-relative py-2 d-none twopage" id="aboutus">
+            <div class="row mx-0 col align-self-top my-3 justify-content-between">
+              <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
+                <div class="row col row-cols-1 p-0">
+                  <div class="h2 col font-big">Together, we are more</div>
+                  <div class="col font-lead">
+                    Actualize is formed together when the three teams, IT, OT and IA realized that the whole is more
+                    than the sum of its parts.
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center col-12 col-md-5 pl-0">
+                <img src="images/aboutus.jpg" alt="" width="100%" height="auto" />
+              </div>
+            </div>
+            <div class="row row-cols-1 mx-0 col align-self-end align-items-start my-3" id="aboutItem">
+              <div class="col border rounded align-self-start my-2 bg-grey" id="aboutMenu">
+                <ul class="nav nav-pills justify-content-between rounded my-2" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="pills-home-tab"
+                      data-toggle="pill"
+                      href="#pills-home"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                      >Our Team</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-profile-tab"
+                      data-toggle="pill"
+                      href="#pills-profile"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                      >Our Methodology</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-contact-tab"
+                      data-toggle="pill"
+                      href="#pills-contact"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                      >Our Origin</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col tab-content align-self-start pt-2 px-0" id="pills-tabContent">
+                <div
+                  class="row px-0 mx-0 row-cols-1 tab-pane fade show active h-100"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="card-deck">
+                    <div class="card shadow rounded-lg">
+                      <div class="card-header font-medium">
+                        <div class="row px-0 align-items-center">
+                          <div style="color: #673ab7;" class="font-big col-auto">
+                            <i class="fas fa-cogs rounded-lg"></i>
+                          </div>
+                          <div class="col">Industrial Automation</div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text font-lead">
+                          Industrial Automation team consists of two Instrumentation Engineers, Lingesh and Manikanta.
+                          They have combined experience of 4 years working on various control panels, different
+                          varieties of PLCs and CNCs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card shadow rounded-lg">
+                      <div class="card-header font-medium">
+                        <div class="row px-0 align-items-center">
+                          <div style="color: #3f51b5;" class="font-big col-auto">
+                            <i class="fas fa-microchip rounded-lg"></i>
+                          </div>
+                          <div class="col">Operational Technology</div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text font-lead">
+                          Operational Technology team consists of four electronic communication engineers, Vivek,
+                          Harsha, Mahendra, and Satish. They are proficient with Embedded systems and currently working
+                          on Edge Technologies. The team has been working with IEEE for the past 2 years for various
+                          projects to help standardize IoT.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card shadow rounded-lg">
+                      <div class="card-header font-medium">
+                        <div class="row px-0 align-items-center">
+                          <div style="color: #2196f3;" class="font-big col-auto">
+                            <i class="fas fa-cloud rounded-lg"></i>
+                          </div>
+                          <div class="col">Information Technology</div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text font-lead">
+                          Information Technology team consists of three computer science engineers, Vignan, Ashok and
+                          Harika. The team works with the latest technologies such as Flutter for Mobile, Go and Rust
+                          Programming Languages to produce desired results. The team is proficient with NodeJS and
+                          MongoDB.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        Our Methodology is crafted in a way to suffice our client’s unique requirements. We believe that
+                        every problem needs to be understood from all perspectives, thus, we embrace a comprehensive
+                        approach.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-violet"></div>
+                    <div class="col-11 font-medium">Getting to know first</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        Our team first learns everything about you and your needs and specifications and current
+                        processes by adopting a user-focused approach.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-indigo"></div>
+                    <div class="col-11 font-medium">Exploring the industry</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        We believe that we can find the best solution for a problem with extensive analysis. Exploring
+                        the industry and learning through observation, interviews with the clients, interacting with the
+                        domain experts, workshops, surveys and research helps us to obtain more insights into the
+                        problem and the scenario.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-blue"></div>
+                    <div class="col-11 font-medium">Customizing the service</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        After fully understanding the gravity of the system, our team works with the best-suited
+                        technologies to solve the problem most efficiently and economically possible.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-green"></div>
+                    <div class="col-11 font-medium">Instigating the solutions</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        Our team will now propose a variety of suitable solutions to the problem after concentrated
+                        research and validate which solution best fits in the TQM(Time, Quality, Money) triangle.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-yellow"></div>
+                    <div class="col-11 font-medium">Leaping into action</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        With the best understanding of the solution framework, we’ll now move into action and provide a
+                        detailed road map with all the specifications listed down to implement the designed solution.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-orange"></div>
+                    <div class="col-11 font-medium">Developing, integrating & testing</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        The detailed plan comes into play now after we have everything in place. We move into the
+                        execution phase by using a methodology(Waterfall/Agile/Lean) which best fits the technology
+                        stack that we chose and meticulously perform the quality assurance testing.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col my-2 px-0 mx-0 my-1">
+                    <div class="col-auto rounded p-1 bg-red"></div>
+                    <div class="col-11 font-medium">
+                      The end is never the end. It’s just a beginning.
+                    </div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        We’ll continue to provide our ongoing support and maintenance to your needs with our faculty and
+                        develop a healthy long-term relationship with you.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row col py-2 px-0 mx-0">
+                    <div class="col-auto rounded p-1 bg-violet"></div>
+                    <div class="col-11 font-medium">Texoham</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        <a href="http://www.texoham.com/">Texoham Centre for Advanced Computing</a>
+                        is an offshoot of Soham Academy of Human Excellence. Texoham is a place for young entrepreneurs
+                        to excel and generate wealth for themselves as well as for society.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0">
+                    <div class="col-auto rounded p-1 bg-indigo"></div>
+                    <div class="col-11 font-medium">Soham Academy</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        <a href="http://www.sohamacademy.org/">Soham Academy of Human Excellence</a>, established by
+                        Komaragiri Sahadev in 2016 to reform Indian Education System. This non-profit organization has
+                        been working with several schools to help students learn Yoga, Slokas, Robotics, and so many
+                        other things.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0">
+                    <div class="col-auto rounded p-1 bg-blue"></div>
+                    <div class="col-11 font-medium">iFocus Mission</div>
+                  </div>
+                  <div class="row col py-2 px-0 mx-0 border-bottom border-secondary">
+                    <div class="col-auto pl-2 pr-0">
+                      <div class="col pr-0 font-lead">
+                        <a href="https://www.ifocusmission.org/">iFocus Mission</a>
+                        focuses on bringing out the inherent positive qualities, promotes the culture of enriching one’s
+                        wisdom, aspires to help people effectively manage today’s world of complexities.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="row px-0 mx-0 row-cols-1 h-100 position-relative py-2 d-none twopage" id="services">
+            <div class="row mx-0 col align-self-top my-3 justify-content-between">
+              <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
+                <div class="row col row-cols-1 p-0">
+                  <div class="h2 col font-big">Together, we provide more</div>
+                  <div class="col font-lead">
+                    Actualize is capable of providing you IT, OT and IA services individually or combined. We understand
+                    that each of our client requirements are different and unique and provide them the best possible
+                    services.
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center justify-content-end col-12 col-md-5 pl-0">
+                <img src="images/services.jpg" alt="" width="100%" height="auto" />
+              </div>
+            </div>
+            <div class="row row-cols-1 mx-0 col align-self-end my-3 align-items-start" id="servicesItem">
+              <div class="col border rounded align-self-start my-2 bg-grey" id="servicesMenu">
+                <ul class="nav nav-pills justify-content-between rounded my-2" id="services-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="services-ia-tab"
+                      data-toggle="pill"
+                      href="#services-ia"
+                      role="tab"
+                      aria-controls="services-ia"
+                      aria-selected="true"
+                      >Industrial Automation</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="services-ot-tab"
+                      data-toggle="pill"
+                      href="#services-ot"
+                      role="tab"
+                      aria-controls="services-ot"
+                      aria-selected="true"
+                      >Operational Technology</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="services-it-tab"
+                      data-toggle="pill"
+                      href="#services-it"
+                      role="tab"
+                      aria-controls="services-it"
+                      aria-selected="true"
+                      >Information Technology</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="services-tr-tab"
+                      data-toggle="pill"
+                      href="#services-tr"
+                      role="tab"
+                      aria-controls="services-tr"
+                      aria-selected="true"
+                      >Training</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col px-0 tab-content align-self-start pt-2" id="services-tabContent">
+                <div
+                  class="tab-pane fade show active h-100"
+                  id="services-ia"
+                  role="tabpanel"
+                  aria-labelledby="services-ia-tab"
+                >
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="images/ia/controlPanel.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Control Panels</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor voluptas odio quae
+                          explicabo, nesciunt molestias voluptatibus consectetur consequuntur blanditiis eaque,
+                          quibusdam sequi beatae dolores consequatur sint esse cupiditate totam.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/ia/plccnc.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">PLC and CNC Programming</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio tempora assumenda! Commodi
+                          cupiditate officiis corporis magni deserunt repellat aperiam voluptatem error, minima eum sint
+                          rem consectetur laborum ad voluptates.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/ia/scada.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">HMI and SCADA</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio tempora assumenda! Commodi
+                          cupiditate officiis corporis magni deserunt repellat aperiam voluptatem error, minima eum sint
+                          rem consectetur laborum ad voluptates.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="services-ot" role="tabpanel" aria-labelledby="services-ot-tab">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="images/ot/embedded.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Embedded Real-Time Systems</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor voluptas odio quae
+                          explicabo, nesciunt molestias voluptatibus consectetur consequuntur blanditiis eaque,
+                          quibusdam sequi beatae dolores consequatur sint esse cupiditate totam.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/ot/iot.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Internet of Things(IoT)</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus non quod culpa inventore
+                          laboriosam, voluptate eveniet deleniti eligendi atque dignissimos. Quis, quasi libero commodi
+                          dolorem ullam aspernatur iste maiores in.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/ot/iiot.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Industrial Internet of Things(IIoT)</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt accusamus odit, id
+                          voluptate, facere ipsa tenetur ut fugit, vero provident cumque ad iusto vitae natus. Eius modi
+                          quam repellat doloribus?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="services-it" role="tabpanel" aria-labelledby="services-it-tab">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="images/it/pwa.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Progressive Web Applications</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor voluptas odio quae
+                          explicabo, nesciunt molestias voluptatibus consectetur consequuntur blanditiis eaque,
+                          quibusdam sequi beatae dolores consequatur sint esse cupiditate totam.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/it/mobile.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Mobile Applications</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, qui, similique, vel
+                          aperiam sint placeat iure optio id molestiae accusantium est odit sequi possimus adipisci
+                          dolorum maxime fugiat? Culpa, est!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/it/desktop.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Desktop Applications</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora eveniet aspernatur
+                          molestiae ut expedita dolorem voluptatum modi eum ratione eius perferendis illum, natus
+                          consectetur recusandae quos distinctio! Unde, excepturi?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="services-tr" role="tabpanel" aria-labelledby="services-tr-tab">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="images/tr/internship.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Internships</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor voluptas odio quae
+                          explicabo, nesciunt molestias voluptatibus consectetur consequuntur blanditiis eaque,
+                          quibusdam sequi beatae dolores consequatur sint esse cupiditate totam.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/tr/webinar.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Webinars</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, qui, similique, vel
+                          aperiam sint placeat iure optio id molestiae accusantium est odit sequi possimus adipisci
+                          dolorum maxime fugiat? Culpa, est!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="images/tr/workshop.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title font-medium">Workshops</h5>
+                        <p class="card-text font-lead">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora eveniet aspernatur
+                          molestiae ut expedita dolorem voluptatum modi eum ratione eius perferendis illum, natus
+                          consectetur recusandae quos distinctio! Unde, excepturi?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="row px-0 mx-0 row-cols-1 h-100 position-relative d-none singlepage" id="framework">
+            <div class="row mx-0 col pr-0 justify-content-between">
+              <div class="row row-cols-1 align-items-center col-12 col-md-7 px-0 mx-0">
+                <div class="row col row-cols-1 p-0">
+                  <div class="h2 col font-big">Together, we communicate more</div>
+                  <div class="col font-lead">
+                    Actualize follows industry standards to achieve more. The adjacent diagram gives you an outlook at
+                    our IoT framework.
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center justify-content-end col-12 col-md-5 px-0">
+                <img src="images/actualize_ppt.svg" alt="" width="auto" id="architectureImage" class="col px-0 py-3" />
+              </div>
+            </div>
+          </section>
+          <section
+            class="row row-cols-1 row-cols-lg-12 px-0 mx-0 h-100 d-none singlepage align-items-top"
+            id="contactus"
+          >
+            <div class="row mx-0 col justify-content-between">
+              <div class="row row-cols-1 align-items-center col-12 col-md-6 px-0 mx-0">
+                <div class="row col row-cols-1 p-0">
+                  <div class="h2 col font-big">Together, we can create more</div>
+                  <div class="col font-lead">
+                    <form>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="contactName"
+                          placeholder="Your Name"
+                          aria-describedby="Name"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="contactEmail"
+                          placeholder="Your Email"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          id="contactMessage"
+                          placeholder="Message for us"
+                          rows="4"
+                        ></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary d-block ml-auto">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center justify-items-end col-12 col-md-6 pl-0">
+                <img src="images/contactUs.jpg" alt="" width="100%" height="auto" />
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer
+          class="row col row-cols-1 p-0 m-0 bg-grey align-self-end align-items-center border-top rounded justify-content-between"
+        >
+          <div class="col-auto text-md-left">Copyright @Actualize 2020</div>
+          <div class="col-auto text-md-right">Actualize is part of Texoham Center for Advanced Computing</div>
+        </footer>
+      </div>
+    </div>
+    <!-- Anime JS -->
+    <script
+      src="https://unpkg.com/animejs/lib/anime.min.js"
+      integrity="sha384-JmTzX6unfJDiDQMoiypqCUI502SrA0RB+F//kF3GrhGq5FRh2rTca4us326Qg7Dl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Loader -->
+    <script src="js/loader.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <!-- Main -->
+    <script src="js/index.js"></script>
+    <!-- Browser Sync - Not Production -->
+    <script async src="http://localhost:3000/browser-sync/browser-sync-client.js?v=2.26.7"></script>
+  </body>
+</html>
